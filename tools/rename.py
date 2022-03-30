@@ -4,7 +4,7 @@
 import os
 seq = 0
 
-for file in os.listdir("imgs/clean_inferno"):
-    full = "imgs/clean_inferno/" + file
-    os.rename(full, "imgs/clean_inferno/" + str(str('%04d' % seq) + "_" + str(file)))
+for file in os.listdir("imgs/"):
+    full = "imgs/" + file
+    os.rename(full, "imgs/" + str(str('%04d' % seq) + "_" + str(file)))
     seq +=1
