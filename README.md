@@ -1,5 +1,5 @@
 # CS:GO Labels
-> Dataset of CS:GO gameplay screenshots and corresponding labels for training segnets
+> Dataset of gameplay screenshots and corresponding labels for training segnets
 
 ![example mask](mask.png)
 
@@ -20,8 +20,8 @@ Learn more from [the blog post](https://selfplaylabs.com/blog/csgo-labels), or o
  2 - #7A7A7A - unwalkable (walls, ceiling, sky)
  3 - #FFFF00 - jump/climb (boxes, ladders, skill jumps)
  4 - #cc00ff - first person (player model (arm,hand) and equipped gun/gear. don't include muzzle flashes or cartridges)
- 5 - #00ff66 - ct player model (including shadows)
- 6 - #ff0000 - t player model (including shadows)
+ 5 - #00ff66 - ct player model (excl. shadows)
+ 6 - #ff0000 - t player model (excl. shadows)
  6 - TBD - nades in action (flying nades, smoke from smoke grenade, fire from molotov, explosion from he
  6 - TBD - dropped gear (gear laying on the ground, weapons, defuse kit, bomb)
 </pre>
