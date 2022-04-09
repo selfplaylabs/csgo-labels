@@ -1,5 +1,7 @@
 # CS:GO Labels
-> gameplay screenshots and labels for training segnets
+> Dataset of CS:GO gameplay screenshots and corresponding labels for training segnets
+
+![example mask](mask.png)
 
 Learn more from [the blog post](https://selfplaylabs.com/blog/csgo-labels), or on the [Selfplay Labs Discord](http://selfplaylabs.com/discord) in the #csgo-labels channel.
 
